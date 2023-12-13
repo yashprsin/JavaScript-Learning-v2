@@ -1,4 +1,5 @@
-// + Create a const object called "profile" to store information show in the picture
+// Questions : Create a const object called "profile" to store information show in the picture.
+
 const Profile = {
     userName : "javascript124",
     isVarify : true, 

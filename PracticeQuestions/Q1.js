@@ -1,4 +1,5 @@
-// + Create a const object called "product" to store informations shown in the picture.
+// Questions : Create a const object called "product" to store informations shown in the picture.
+
 const Product = {
     productName : "Parker Jotter Standard CT Ball Pen",
     color : "Black",
