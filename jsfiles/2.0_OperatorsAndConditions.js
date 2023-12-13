@@ -174,3 +174,82 @@ console.log("a ** b =", a**b);
     let condition_2 = a===5;
     console.log("condition 1 ! condition 2 ", !(condition_1 < condition_2));
 }
+
+// ----------->    Conditional Statement   <-----------
+// + Conditional Statement
+// + Conditional 1
+{
+    let age = 16;
+    
+    if(age >= 18){
+        console.log("Yes, you can vote!");
+    }
+    if(age < 18){
+        console.log("Yes, you can't vote!");
+    }
+}
+// + Conditional 2
+{
+    let mode = "dark";
+    let color;
+
+    if(mode === "dark"){
+        color = "dark-mode";
+    }else{
+        color = "light-mode";
+    }
+    console.log("Mode : ", color);
+}
+// + Conditional 3
+{
+    let number = 7;
+    
+    if(number%2===0){
+        console.log("Number : "+number+" is Even!");
+    }else{
+        console.log("Number : "+number+" is odd!");
+    }
+}
+// + Conditional 4
+{
+    let mode = "blue";
+    let color;
+    
+    if (mode === "dark"){
+        color = "dark-mode";
+    }else if (mode === "pink"){
+        color = "girl-mode";
+    }else if (mode === "blue"){
+        color = "beach-mode";
+    }else{
+        color = "white";
+    }
+    console.log("Screen Mode : ", color);
+}
+// + Conditional 5
+{
+    let mode = "dark";
+    
+    if (mode === "dark") console.log("Mode : dark-mode")
+}
+// + Conditional 6
+{
+    let mode = "e";
+
+    if (mode === "dark") console.log("Mode : dark-mode")
+    else console.log("Mode : light-mode")
+}
+// ----------->    Ternary Opertor   <-----------
+// Explain - let assume a:b,c it means a hold the conditon b return Ture and c return False
+
+{
+    let age = 25;
+    let result = age >= 18 ? "You are Adult!" : "Not Adult!"
+    console.log(result)
+}
+{
+    let age = 15;
+    age >= 18 ? console.log("You are Adult!") : console.log("Not Adult!")   
+}
+
+// Switch Statement on MDN
