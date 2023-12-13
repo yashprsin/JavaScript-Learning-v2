@@ -253,3 +253,20 @@ console.log("a ** b =", a**b);
 }
 
 // Switch Statement on MDN
+{
+    let Fruit = 'Pea';
+    switch (Fruit){
+        case 'Papaya':
+            console.log("Papaya are $0.59 a pound.");
+            break;
+        case 'Oranges':
+            console.log("Oranges are $0.48 a pound.");
+            break;
+        case 'Mangoes':
+            console.log("Mangoes are $2.96 a pound.");
+            break;
+        default:
+            console.log("Sorry, we are out of Stock.");
+    }
+
+}
