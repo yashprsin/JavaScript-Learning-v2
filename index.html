@@ -5,15 +5,65 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <h1 id="heading">DOM - (Document Object Model)</h1>
+        <div class="container" id="id-1">
+            <div class="topic">
+                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem facilis recusandae laudantium
+                        eius ad adipisci inventore obcaecati ipsam itaque facere repudiandae voluptates, fugit quas?
+                        Facilis doloremque assumenda labore et vel?</b></p>
+            </div>
+            <div class="description">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quaerat porro consectetur
+                    quisquam voluptatem blanditiis. Aut, ipsam odio repudiandae veritatis iusto sit, ex nihil suscipit a
+                    debitis est dignissimos error?</p>
+            </div>
+            <button>Learn More</button>
+        </div>
+        <h3>Source element:</h3>
+        <p id="source">
+            <style>
+                #source {
+                    color: red;
+                }
+
+                #text {
+                    text-transform: uppercase;
+                    
+                }
+            </style>
+            <span id="text">
+                Take a look at<br />
+                how this text<br />
+                is interpreted below.
+            </span>
+            <span style="display:none">HIDDEN TEXT</span>
+        </p>
+        <h3>Result of textContent:</h3>
+        <textarea id="textContentOutput" rows="6" cols="30" readonly>…</textarea>
+        <h3>Result of innerText:</h3>
+        <textarea id="innerTextOutput" rows="6" cols="30" readonly>…</textarea>
+
+
+
+
+
+
+
+
+
+
+        <!--                  JS File                       -->
         <!-- <script src="jsfiles/1.0_intro.js"></script> -->
         <!-- <script src="jsfiles/1.1_VariableDataTypes.js"></script> -->
         <!-- <script src="jsfiles/2.0_OperatorsAndConditions.js"></script> -->
         <!-- <script src="jsfiles/3.0_LoopsAndStrings.js"></script> -->
         <!-- <script src="jsfiles/4.0_Array.js"></script> -->
         <!-- <script src="jsfiles/5.0_Functions.js"></script> -->
+        <script src="jsfiles/6.0_DOM.js"></script>
         <!-- <script src="PracticeQuestions/Q1.js"></script> -->
         <!-- <script src="PracticeQuestions/Q2.js"></script> -->
         <!-- <script src="PracticeQuestions/Q3.js"></script> -->
@@ -27,7 +77,12 @@
         <!-- <script src="PracticeQuestions/Q11.js"></script> -->
         <!-- <script src="PracticeQuestions/Q12.js"></script> -->
         <!-- <script src="PracticeQuestions/Q13.js"></script> -->
-        <script src="PracticeQuestions/Q14.js"></script>
+        <!-- <script src="PracticeQuestions/Q14.js"></script> -->
+        <script src="PracticeQuestions/Q15.js"></script>
+        <script src="PracticeQuestions/Q16.js"></script>
+        <script src="PracticeQuestions/Q17.js"></script>
+        <script src="PracticeQuestions/Q18.js"></script>
+        <script src="PracticeQuestions/Q19.js"></script>
     </body>
 
 </html>
