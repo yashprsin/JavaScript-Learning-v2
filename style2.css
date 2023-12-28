@@ -1,0 +1,21 @@
+#box{
+    height: 100px;
+    width: 100px;
+    color: #000;
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+.btn{
+    color: #fff;
+    background-color: #900000;
+}
+.Content{
+    color: purple; 
+    font-weight: bold;
+}
+.topic{
+    background-color: #000;
+    font-weight: bold;
+}
