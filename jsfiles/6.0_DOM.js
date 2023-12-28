@@ -83,14 +83,50 @@ console.dir(wthida);
 
     console.log(source.innerText);
 
+    let div = document.querySelector('article');
+    console.log(div.innerText)
+
     // innerContent     :   return textual content even for hidden element.
     console.log(source.textContent);
 }
 
 {
     // innerHTML        :   return the plain text or HTML in the element.
-    const myElement = document.getElementById("id-1");
+    const myElement = document.getElementById("list2");
 
     let contents = myElement.innerHTML;
     console.log(contents);
+    console.log(myElement.innerText);
+    console.dir(myElement.innerText);
+}
+{
+    // ----------->    Node: firstChild property   <-----------
+    const p01 = document.getElementById("para-01");
+    console.log(p01.firstChild.nodeName);
+    
+    let p02 = document.getElementById("list");
+    console.log(p02.textContent);
+}
+{
+    // Appending HTML to an element
+    const list = document.getElementById("list2");
+
+    list.innerHTML += `<li><a href="#">Item ${list.children.length + 1}</a></li>`;
+    console.log(list.innerHTML += `<li><a href="#">Item ${list.children.length + 1}</a></li>`);
+}
+{
+    // ----------->    Element: nextElementSibling property   <-----------
+    let el = document.getElementById("div-01").nextElementSibling;
+    console.log("Siblings of div-01:");
+    while (el) {
+        console.log(el.nodeName);
+        el = el.nextElementSibling;
+    }
+}
+{
+    // ----------->    Node: lastChild property   <-----------
+    const tr = document.getElementById("list"); 
+    const corner_td = tr.lastChild;
+    console.dir(corner_td);
+
 }
