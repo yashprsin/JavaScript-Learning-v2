@@ -12,9 +12,45 @@
         <div id="box" name="Card-1">This is a box.</div>
         <p class="para">This is a paragragh.</p>
 
+
+        <!-- Events -->
+        <div class="container">
+            <div class="Events">
+                <button onclick="console.log('button-1 was Click')">Single Click Count</button>
+                <button onclick="alert('This button was touch')">Touch Button</button>
+                <button ondblclick="console.log('button-1 was Click')">Double Click Count</button>
+                <style>
+                    .Hoverdiv {
+                        width: 350px;
+                        height: 400px;
+                        background-color: aqua;
+                        color: #000;
+                        font-size: 2vw;
+                        text-align: center;
+
+                    }
+                </style>
+                <!-- <div class="Hoverdiv" onmouseover="console.log('Enter a Div')" onmouseleave="console.log('Exit a Div')">
+                    This is Sensetive Div
+                </div> -->
+                <button class="btn" id="btn-1">Button 1</button>
+                <button class="btn" id="btn-2">Button 2</button>
+                <div class="Hoverdiv" id="div1">
+                    This is my second div to test in js
+                </div>
+                <div id="div3" class="Hoverdiv">Div3</div>
+                <button id="Handler">Button Handler</button>
+                
+            </div>
+            <div class="q19">
+                <button id="mode">Change Mode</button>
+            </div>
+        </div>
+
         <!--                  JS File                       -->
-        <script src="jsfiles/6.1_DOM.js"></script>
-        <script src="PracticeQuestions/Q18.js"></script>
+        <script src="jsfiles/7.0_Events.js"></script>
+        <!-- <script src="jsfiles/6.1_DOM.js"></script> -->
+        <!-- <script src="PracticeQuestions/Q18.js"></script> -->
         <script src="PracticeQuestions/Q19.js"></script>
     </body>
 
